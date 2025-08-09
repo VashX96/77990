@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.material-symbols-outlined {
+    color: red;
+    font-size: 3rem;
+}
+
+/* Accesibilidad */
+.sr-only {
+    position: absolute;
+    top: -4000px;
+    left: -4000px;
+}
+
+#producto {
+    display: flex;
+    flex-direction: column;
+}
+
+#producto h1 {
+    color: red;
+    margin: 0;
+    order: 2;
+}
+
+#producto h2 {
+    color: blue;
+    margin: 0;
+    order: 1;
+}

@@ -1,9 +1,7 @@
 /* Instalación de la tipografía Inter */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* Lista de colores para el sitio */
-
 .colores {
     color: hsl(208, 100%, 8%);
     color: hsl(208, 100%, 15%);
@@ -16,7 +14,6 @@
 
 /* Estilos generales */
 /* Selector universal */
-
 * {
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
@@ -32,7 +29,6 @@ body {
 }
 
 /* Estilos para el header */
-
 header {
     background-color: hsl(208, 100%, 8%);
     color: hsl(208, 100%, 94%);
@@ -54,7 +50,6 @@ header {
 
 
 /* Barra de navegación */
-
 nav ul {
     list-style: none;
     padding-left: 0;
@@ -64,7 +59,6 @@ nav ul {
 }
 
 /* Estilos para las secciones */
-
 section {
     padding: 2rem;
     border-bottom: 0.1rem solid hsl(208, 100%, 8%);
@@ -79,7 +73,6 @@ section h1 {
 }
 
 /* Estilos para el footer  */
-
 footer {
     background-color: hsl(208, 100%, 8%);
     color: hsl(208, 100%, 94%);
@@ -125,7 +118,6 @@ a.footer:active {
 }
 
 /* Ejemplo de modelo de caja */
-
 .modeloDeCaja {
     border: 0.1rem solid hsl(208, 100%, 8%); /* grosor, estilo y color */
     
@@ -170,13 +162,11 @@ a.logo:active {
 
 
 /* Imágenes */
-
 img {
     width: min(65rem, 100%);
 }
 
 /* Clase 3 */
-
 #bienvenida {
     min-height: 42rem;
     padding: 0;
@@ -228,7 +218,6 @@ img {
 
 
 /* Ejercicio novedades */
-
 #novedades .contenedor-novedades {
     display: flex;
     gap: 1rem;
@@ -306,7 +295,6 @@ a.btn-outline:active {
 }
 
 /* Clase 4 (repaso) y 5 */
-
 form {
     display: flex;
     flex-direction: column;
@@ -332,9 +320,10 @@ select {
 form span {
     font-weight: 600;
     color: hsl(286, 100%, 20%);
-    
+    font-size: 0.9rem;
+
     align-self: flex-end;
-    visibility: hidden; /* Visibilidad del elemento */
+    visibility: visible; /* Visibilidad del elemento */
 }
 
 input:focus,
@@ -362,4 +351,45 @@ button {
 
 button:hover {
     background-color: hsl(208, 100%, 15%);
+}
+
+/* Clase 6 */
+/* Tablas */
+#tabla table {
+    width: 100%;
+    text-align: center;
+
+    border: 0.1rem solid hsl(208, 100%, 8%);
+
+    border-collapse: collapse; /* Esto elimina la distancia entre celdas */
+}
+
+#tabla caption {
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+#tabla th,
+#tabla td {
+    border: 0.1rem solid hsl(208, 100%, 8%);
+    padding: 1rem;
+}
+
+#tabla img {
+    width: 6rem;
+}
+
+tr:hover {
+    background-color: hsl(208, 100%, 74%);
+}
+
+/* Video */
+#video video {
+    width: 100%;
+}
+
+.mapa {
+    border: none;
+    width: 100%;
+    height: 24rem;
 }

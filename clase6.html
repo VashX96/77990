@@ -7,6 +7,112 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+    <header>
+        <div class="contenedor-header">
+            <h1><a href="index.html" class="logo">DW</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="clase1.html" class="nav">Clase 1</a></li>
+                    <li><a href="clase2.html" class="nav">Clase 2</a></li>
+                    <li><a href="clase3.html" class="nav">Clase 3</a></li>
+                    <li><a href="clase4.html" class="nav">Clase 4</a></li>
+                    <li><a href="clase5.html" class="nav">Clase 5</a></li>
+                    <li><a href="clase6.html" class="nav">Clase 6</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="bienvenida">
+            <h1>Bienvenidos a la clase 6</h1>
+        </section>
+
+        <section id="tabla">
+            <h1>Tablas</h1>
+
+            <table>
+                <caption>Productos</caption>
+                <tr> <!-- tr = table row / fila de la tabla -->
+                    <th>Portada</th> <!-- th = table header / encabezado de la columna -->
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Editar</th>
+                </tr>
+                <!-- 1º fila -->
+                <tr><!-- td = table data / dato de la celda -->
+                    <td><img src="img/01.jpg" alt="No se olviden de poner el alt correcto!"></td>
+                    <td>Obras Completas de H.P. Lovecraft</td>
+                    <td>H.P. Lovecraft</td>
+                    <td>
+                        <a href="" class="btn-outline">Modificar</a>
+                        <a href="" class="btn-fill">Borrar</a>
+                    </td>
+                </tr>
+                <!-- 2º fila -->
+                <tr><!-- td = table data / dato de la celda -->
+                    <td><img src="img/02.jpg" alt="No se olviden de poner el alt correcto!"></td>
+                    <td>Las Crónicas Completas de Conan</td>
+                    <td>Robert E. Howard</td>
+                    <td>
+                        <a href="" class="btn-outline">Modificar</a>
+                        <a href="" class="btn-fill">Borrar</a>
+                    </td>
+                </tr>
+                <!-- 3º fila -->
+                <tr><!-- td = table data / dato de la celda -->
+                    <td><img src="img/03.jpg" alt="No se olviden de poner el alt correcto!"></td>
+                    <td>Los Hijos de Húrin</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>
+                        <a href="" class="btn-outline">Modificar</a>
+                        <a href="" class="btn-fill">Borrar</a>
+                    </td>
+                </tr>
+                <!-- 4º fila -->
+                <tr><!-- td = table data / dato de la celda -->
+                    <td><img src="img/04.jpg" alt="No se olviden de poner el alt correcto!"></td>
+                    <td>El Silmarillion</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>
+                        <a href="" class="btn-outline">Modificar</a>
+                        <a href="" class="btn-fill">Borrar</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="video">
+            <h1>Video</h1>
+            <video aria-hidden="true" controls autoplay muted loop>
+                <source src="media/comic-1.mp4" type="video/mp4">
+                Video de presentación de nuestra librería.
+            </video>
+        </section>
+        <section id="iframe">
+            <h1>iFrame</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UmzFk68Bwdk?si=YHNzpLSiqE0FPQte" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d821.0807429517575!2d-58.39443868496867!3d-34.59599372161252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1754754531680!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <h1>Sobre nuestro curso:</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.educacionit.com/curso-de-html" target="_blank"  class="footer" >Programa</a>
+                    </li>
+                    <li>
+                        <a href="https://alumni.education/" target="_blank"  class="footer" >Alumni</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/SpRytRKP" target="_blank"  class="footer" >Discord</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
